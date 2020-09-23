@@ -1,0 +1,37 @@
+type salesforce.CreditMemo {
+  salesforce.Lookup BillToContactId {
+    apiName = "CreditMemo.BillToContactId"
+  }
+  salesforce.Lookup BillingAccountId {
+    apiName = "CreditMemo.BillingAccountId"
+  }
+  string CreditDate {
+  }
+  string CreditMemoNumber {
+  }
+  string Description {
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "CreditMemo.OwnerId"
+  }
+  string Status {
+  }
+  string TotalAdjustmentAmount {
+  }
+  string TotalAdjustmentAmountWithTax {
+  }
+  string TotalAdjustmentTaxAmount {
+  }
+  string TotalAmount {
+  }
+  string TotalAmountWithTax {
+  }
+  string TotalChargeAmount {
+  }
+  string TotalChargeAmountWithTax {
+  }
+  string TotalChargeTaxAmount {
+  }
+  string TotalTaxAmount {
+  }
+}

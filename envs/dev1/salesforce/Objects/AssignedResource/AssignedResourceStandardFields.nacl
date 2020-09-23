@@ -1,0 +1,129 @@
+type salesforce.AssignedResource {
+  serviceid Id {
+    apiName = "AssignedResource.Id"
+    label = "Assigned Resource ID"
+    _required = false
+    queryable = true
+    _hidden = true
+    updateable = false
+    createable = false
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "AssignedResource.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+    _required = false
+  }
+  salesforce.AutoNumber AssignedResourceNumber {
+    apiName = "AssignedResource.AssignedResourceNumber"
+    label = "Assigned Resource Number"
+    _required = true
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "AssignedResource.CreatedDate"
+    label = "Created Date"
+    _required = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "AssignedResource.CreatedById"
+    label = "Created By ID"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      salesforce.User,
+    ]
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "AssignedResource.LastModifiedDate"
+    label = "Last Modified Date"
+    _required = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "AssignedResource.LastModifiedById"
+    label = "Last Modified By ID"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      salesforce.User,
+    ]
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "AssignedResource.SystemModstamp"
+    label = "System Modstamp"
+    _required = false
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden = true
+  }
+  salesforce.Lookup ServiceAppointmentId {
+    apiName = "AssignedResource.ServiceAppointmentId"
+    label = "Service Appointment ID"
+    _required = true
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      salesforce.ServiceAppointment,
+    ]
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Lookup ServiceResourceId {
+    apiName = "AssignedResource.ServiceResourceId"
+    label = "Service Resource ID"
+    _required = true
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      salesforce.ServiceResource,
+    ]
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsRequiredResource {
+    apiName = "AssignedResource.IsRequiredResource"
+    label = "Required Resource"
+    defaultValue = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist Role {
+    apiName = "AssignedResource.Role"
+    label = "Role"
+    _required = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup EventId {
+    apiName = "AssignedResource.EventId"
+    queryable = false
+    updateable = false
+    createable = false
+  }
+}

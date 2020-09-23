@@ -1,0 +1,7 @@
+salesforce.AuraDefinitionBundle harnessApp {
+  apiVersion = 49
+  description = "A Lightning Component Bundle"
+  fullName = "harnessApp"
+  type = "Application"
+  markup = file("salesforce/Records/AuraDefinitionBundle/harnessApp/harnessApp.app")
+}

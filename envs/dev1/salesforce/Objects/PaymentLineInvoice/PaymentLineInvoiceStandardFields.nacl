@@ -1,0 +1,34 @@
+type salesforce.PaymentLineInvoice {
+  string Amount {
+  }
+  string AppliedDate {
+  }
+  salesforce.Lookup AssociatedAccountId {
+    apiName = "PaymentLineInvoice.AssociatedAccountId"
+  }
+  salesforce.Lookup AssociatedPaymentLineId {
+    apiName = "PaymentLineInvoice.AssociatedPaymentLineId"
+  }
+  string Comments {
+  }
+  string Date {
+  }
+  string EffectiveImpactAmount {
+  }
+  string HasBeenUnapplied {
+  }
+  string ImpactAmount {
+  }
+  salesforce.MasterDetail InvoiceId {
+    apiName = "PaymentLineInvoice.InvoiceId"
+  }
+  string PaymentBalance {
+  }
+  salesforce.Lookup PaymentId {
+    apiName = "PaymentLineInvoice.PaymentId"
+  }
+  string Type {
+  }
+  string UnappliedDate {
+  }
+}

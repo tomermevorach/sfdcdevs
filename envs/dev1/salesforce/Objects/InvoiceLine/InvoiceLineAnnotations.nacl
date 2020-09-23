@@ -1,0 +1,73 @@
+type salesforce.InvoiceLine {
+  annotations {
+    serviceid apiName {
+    }
+    serviceid metadataType {
+    }
+    salesforce.ActionOverride actionOverrides {
+    }
+    string compactLayoutAssignment {
+    }
+    string description {
+    }
+    boolean enableDataTranslation {
+    }
+    boolean enableDivisions {
+    }
+    boolean enableEnhancedLookup {
+    }
+    boolean enableFeeds {
+    }
+    boolean enableHistory {
+    }
+    boolean enableLicensing {
+    }
+    string externalDataSource {
+    }
+    string externalName {
+    }
+    string externalRepository {
+    }
+    salesforce.HistoryRetentionPolicy historyRetentionPolicy {
+    }
+    boolean recordTypeTrackFeedHistory {
+    }
+    boolean recordTypeTrackHistory {
+    }
+    salesforce.SearchLayouts searchLayouts {
+    }
+    salesforce.SharingRecalculation sharingRecalculations {
+    }
+    string externalSharingModel {
+    }
+  }
+  apiName = "InvoiceLine"
+  metadataType = "CustomObject"
+  label = "Invoice Line"
+  actionOverrides = [
+    {
+      actionName = "View"
+      type = "Default"
+    },
+    {
+      actionName = "View"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "View"
+      formFactor = "Small"
+      type = "Default"
+    },
+  ]
+  compactLayoutAssignment = "SYSTEM"
+  enableFeeds = false
+  externalSharingModel = "ControlledByParent"
+  searchLayouts = {
+    searchResultsAdditionalFields = [
+      "Type",
+      "RelatedLine",
+      "LineAmount",
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+salesforce.Layout Payment_Line_Invoice_Layout {
+  fullName = "PaymentLineInvoice-Payment Line Invoice Layout"
+  layoutSections = [
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = true
+      label = "Information"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "PaymentLineInvoiceNumber"
+            },
+            {
+              behavior = "Required"
+              field = salesforce.PaymentLineInvoice.field.PaymentId
+            },
+            {
+              behavior = "Required"
+              field = "HasBeenUnapplied"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "Type"
+            },
+            {
+              behavior = "Required"
+              field = salesforce.PaymentLineInvoice.field.InvoiceId
+            },
+            {
+              behavior = "Edit"
+              field = "Comments"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "Balances"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = "Amount"
+            },
+            {
+              behavior = "Readonly"
+              field = "ImpactAmount"
+            },
+            {
+              behavior = "Readonly"
+              field = "PaymentBalance"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "EffectiveImpactAmount"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "AdditionalInformation"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.PaymentLineInvoice.field.AssociatedAccountId
+            },
+            {
+              behavior = "Edit"
+              field = "Date"
+            },
+            {
+              behavior = "Edit"
+              field = "UnappliedDate"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Edit"
+              field = salesforce.PaymentLineInvoice.field.AssociatedPaymentLineId
+            },
+            {
+              behavior = "Edit"
+              field = "AppliedDate"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = true
+      editHeading = true
+      label = "SystemInformation"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "CreatedById"
+            },
+            {
+              behavior = "Readonly"
+              field = "CreatedDate"
+            },
+          ]
+        },
+        {
+          layoutItems = [
+            {
+              behavior = "Readonly"
+              field = "LastModifiedById"
+            },
+            {
+              behavior = "Readonly"
+              field = "LastModifiedDate"
+            },
+          ]
+        },
+      ]
+      style = "TwoColumnsLeftToRight"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      style = "CustomLinks"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  _parent = [
+    salesforce.PaymentLineInvoice,
+  ]
+}

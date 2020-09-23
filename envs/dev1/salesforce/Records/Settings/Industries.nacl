@@ -1,0 +1,7 @@
+salesforce.IndustriesSettings {
+  fullName = "Industries"
+  enableBlockResourceAvailabilityOrgPref = false
+  enableEventManagementOrgPref = false
+  enableMultiResourceOrgPref = false
+  enableOverbookingOrgPref = false
+}

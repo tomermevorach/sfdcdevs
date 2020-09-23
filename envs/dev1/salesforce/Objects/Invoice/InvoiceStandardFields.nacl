@@ -1,0 +1,42 @@
+type salesforce.Invoice {
+  salesforce.Lookup BillToContactId {
+    apiName = "Invoice.BillToContactId"
+  }
+  salesforce.Lookup BillingAccountId {
+    apiName = "Invoice.BillingAccountId"
+  }
+  string Description {
+  }
+  string DueDate {
+  }
+  string InvoiceDate {
+  }
+  string InvoiceNumber {
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "Invoice.OwnerId"
+  }
+  salesforce.Lookup ReferenceEntityId {
+    apiName = "Invoice.ReferenceEntityId"
+  }
+  string Status {
+  }
+  string TotalAdjustmentAmount {
+  }
+  string TotalAdjustmentAmountWithTax {
+  }
+  string TotalAdjustmentTaxAmount {
+  }
+  string TotalAmount {
+  }
+  string TotalAmountWithTax {
+  }
+  string TotalChargeAmount {
+  }
+  string TotalChargeAmountWithTax {
+  }
+  string TotalChargeTaxAmount {
+  }
+  string TotalTaxAmount {
+  }
+}
