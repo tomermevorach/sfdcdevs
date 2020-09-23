@@ -1,0 +1,5 @@
+salesforce.Territory2Type TerType1 {
+  name = "TerType1"
+  priority = 100
+  fullName = "TerType1"
+}

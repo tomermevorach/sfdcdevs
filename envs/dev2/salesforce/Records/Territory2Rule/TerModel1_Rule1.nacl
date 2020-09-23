@@ -1,0 +1,10 @@
+salesforce.Territory2Rule TerModel1_Rule1 {
+  active = false
+  name = "Rule1"
+  objectType = "Account"
+  ruleItems = {
+    field = salesforce.Account.field.Name
+    value = "bbb"
+  }
+  fullName = "TerModel1.Rule1"
+}

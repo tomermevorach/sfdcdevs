@@ -1,0 +1,49 @@
+type salesforce.CreditMemoLine {
+  string AdjustmentAmount {
+  }
+  string AdjustmentAmountWithTax {
+  }
+  string AdjustmentTaxAmount {
+  }
+  string ChargeAmount {
+  }
+  string ChargeAmountWithTax {
+  }
+  string ChargeTaxAmount {
+  }
+  salesforce.MasterDetail CreditMemoId {
+    apiName = "CreditMemoLine.CreditMemoId"
+  }
+  string Description {
+  }
+  string EndDate {
+  }
+  string LineAmount {
+  }
+  string Name {
+  }
+  salesforce.Lookup Product2Id {
+    apiName = "CreditMemoLine.Product2Id"
+  }
+  string ReferenceEntityItemTypeCode {
+  }
+  salesforce.Lookup RelatedLineId {
+    apiName = "CreditMemoLine.RelatedLineId"
+  }
+  string StartDate {
+  }
+  string Status {
+  }
+  string TaxAmount {
+  }
+  string TaxCode {
+  }
+  string TaxEffectiveDate {
+  }
+  string TaxName {
+  }
+  string TaxRate {
+  }
+  string Type {
+  }
+}

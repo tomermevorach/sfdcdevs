@@ -1,0 +1,9 @@
+salesforce.Territory2 TerModel1_Ter1 {
+  accountAccessLevel = "Edit"
+  caseAccessLevel = "Edit"
+  contactAccessLevel = "Edit"
+  name = "Ter1"
+  opportunityAccessLevel = "Edit"
+  territory2Type = salesforce.Territory2Type.instance.TerType1
+  fullName = "TerModel1.Ter1"
+}

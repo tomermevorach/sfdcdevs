@@ -1,0 +1,4 @@
+salesforce.Territory2Model TerModel1 {
+  name = "TerModel1"
+  fullName = "TerModel1"
+}

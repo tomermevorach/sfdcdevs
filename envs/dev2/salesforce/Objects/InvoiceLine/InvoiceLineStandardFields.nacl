@@ -1,0 +1,56 @@
+type salesforce.InvoiceLine {
+  string AdjustmentAmount {
+  }
+  string AdjustmentAmountWithTax {
+  }
+  string AdjustmentTaxAmount {
+  }
+  string ChargeAmount {
+  }
+  string ChargeAmountWithTax {
+  }
+  string ChargeTaxAmount {
+  }
+  string Description {
+  }
+  salesforce.MasterDetail InvoiceId {
+    apiName = "InvoiceLine.InvoiceId"
+  }
+  string InvoiceLineEndDate {
+  }
+  string InvoiceLineStartDate {
+  }
+  string InvoiceStatus {
+  }
+  string LineAmount {
+  }
+  string Name {
+  }
+  salesforce.Lookup Product2Id {
+    apiName = "InvoiceLine.Product2Id"
+  }
+  string Quantity {
+  }
+  salesforce.Lookup ReferenceEntityItemId {
+    apiName = "InvoiceLine.ReferenceEntityItemId"
+  }
+  string ReferenceEntityItemTypeCode {
+  }
+  salesforce.Lookup RelatedLineId {
+    apiName = "InvoiceLine.RelatedLineId"
+  }
+  string TaxAmount {
+  }
+  string TaxCode {
+  }
+  string TaxEffectiveDate {
+  }
+  string TaxName {
+  }
+  string TaxRate {
+  }
+  string Type {
+  }
+  string UnitPrice {
+  }
+}

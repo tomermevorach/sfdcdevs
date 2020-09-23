@@ -1,0 +1,14 @@
+salesforce.Territory2 TerModel1_Ter11 {
+  accountAccessLevel = "Edit"
+  caseAccessLevel = "Edit"
+  contactAccessLevel = "Edit"
+  name = "Ter11"
+  opportunityAccessLevel = "Edit"
+  parentTerritory = "Ter1"
+  ruleAssociations = {
+    inherited = false
+    ruleName = "Rule1"
+  }
+  territory2Type = salesforce.Territory2Type.instance.TerType2
+  fullName = "TerModel1.Ter11"
+}
