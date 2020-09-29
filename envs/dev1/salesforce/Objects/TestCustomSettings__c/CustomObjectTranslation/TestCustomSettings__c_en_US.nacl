@@ -1,0 +1,22 @@
+salesforce.CustomObjectTranslation TestCustomSettings__c_en_US {
+  fullName = "TestCustomSettings__c-en_US"
+  caseValues = [
+    {
+      plural = false
+      value = "TestCustomSettings"
+    },
+    {
+      plural = true
+      value = "TestCustomSettings"
+    },
+  ]
+  fields = [
+    {
+      name = salesforce.TestCustomSettings__c.field.TestText__c
+    },
+  ]
+  startsWith = "Consonant"
+  _parent = [
+    salesforce.TestCustomSettings__c,
+  ]
+}

@@ -332,6 +332,18 @@ type salesforce.Task {
         isActive = true
       },
       {
+        fullName = "Pacific/Chatham"
+        default = false
+        label = "(GMT+13:45) Chatham Daylight Time (Pacific/Chatham)"
+        isActive = true
+      },
+      {
+        fullName = "Pacific/Auckland"
+        default = false
+        label = "(GMT+13:00) New Zealand Daylight Time (Pacific/Auckland)"
+        isActive = true
+      },
+      {
         fullName = "Pacific/Enderbury"
         default = false
         label = "(GMT+13:00) Phoenix Islands Time (Pacific/Enderbury)"
@@ -344,21 +356,9 @@ type salesforce.Task {
         isActive = true
       },
       {
-        fullName = "Pacific/Chatham"
-        default = false
-        label = "(GMT+12:45) Chatham Standard Time (Pacific/Chatham)"
-        isActive = true
-      },
-      {
         fullName = "Asia/Kamchatka"
         default = false
         label = "(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)"
-        isActive = true
-      },
-      {
-        fullName = "Pacific/Auckland"
-        default = false
-        label = "(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)"
         isActive = true
       },
       {

@@ -104,6 +104,7 @@ type salesforce.ContactRequest {
       salesforce.Case,
       salesforce.Opportunity,
       salesforce.Pet__c,
+      salesforce.TestCustomSettings__c,
     ]
     createable = true
     updateable = true

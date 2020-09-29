@@ -1,7 +1,7 @@
-type salesforce.DuplicateRecordItem {
+type salesforce.TestCustomSettings__c {
   serviceid Id {
-    apiName = "DuplicateRecordItem.Id"
-    label = "Duplicate Record Item ID"
+    apiName = "TestCustomSettings__c.Id"
+    label = "Record ID"
     _required = false
     queryable = true
     _hidden = true
@@ -9,7 +9,7 @@ type salesforce.DuplicateRecordItem {
     createable = false
   }
   salesforce.Checkbox IsDeleted {
-    apiName = "DuplicateRecordItem.IsDeleted"
+    apiName = "TestCustomSettings__c.IsDeleted"
     label = "Deleted"
     defaultValue = false
     createable = false
@@ -18,17 +18,33 @@ type salesforce.DuplicateRecordItem {
     _hidden = true
     _required = false
   }
-  salesforce.AutoNumber Name {
-    apiName = "DuplicateRecordItem.Name"
-    label = "Duplicate Record Item Name"
-    _required = true
-    createable = false
-    updateable = false
+  salesforce.Text Name {
+    apiName = "TestCustomSettings__c.Name"
+    label = "Name"
+    _required = false
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
     queryable = true
-    _hidden = true
+  }
+  salesforce.Lookup SetupOwnerId {
+    apiName = "TestCustomSettings__c.SetupOwnerId"
+    label = "Location"
+    _required = false
+    allowLookupRecordDeletion = true
+    referenceTo = [
+      "Organization",
+      "Profile",
+      salesforce.User,
+    ]
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.DateTime CreatedDate {
-    apiName = "DuplicateRecordItem.CreatedDate"
+    apiName = "TestCustomSettings__c.CreatedDate"
     label = "Created Date"
     _required = false
     createable = false
@@ -37,7 +53,7 @@ type salesforce.DuplicateRecordItem {
     _hidden = true
   }
   salesforce.Lookup CreatedById {
-    apiName = "DuplicateRecordItem.CreatedById"
+    apiName = "TestCustomSettings__c.CreatedById"
     label = "Created By ID"
     _required = false
     allowLookupRecordDeletion = true
@@ -50,7 +66,7 @@ type salesforce.DuplicateRecordItem {
     _hidden = true
   }
   salesforce.DateTime LastModifiedDate {
-    apiName = "DuplicateRecordItem.LastModifiedDate"
+    apiName = "TestCustomSettings__c.LastModifiedDate"
     label = "Last Modified Date"
     _required = false
     createable = false
@@ -59,7 +75,7 @@ type salesforce.DuplicateRecordItem {
     _hidden = true
   }
   salesforce.Lookup LastModifiedById {
-    apiName = "DuplicateRecordItem.LastModifiedById"
+    apiName = "TestCustomSettings__c.LastModifiedById"
     label = "Last Modified By ID"
     _required = false
     allowLookupRecordDeletion = true
@@ -72,41 +88,12 @@ type salesforce.DuplicateRecordItem {
     _hidden = true
   }
   salesforce.DateTime SystemModstamp {
-    apiName = "DuplicateRecordItem.SystemModstamp"
+    apiName = "TestCustomSettings__c.SystemModstamp"
     label = "System Modstamp"
     _required = false
     createable = false
     updateable = false
     queryable = true
     _hidden = true
-  }
-  salesforce.Lookup DuplicateRecordSetId {
-    apiName = "DuplicateRecordItem.DuplicateRecordSetId"
-    label = "Duplicate Record Set ID"
-    _required = true
-    allowLookupRecordDeletion = true
-    referenceTo = [
-      salesforce.DuplicateRecordSet,
-    ]
-    createable = true
-    updateable = false
-    queryable = true
-  }
-  salesforce.Lookup RecordId {
-    apiName = "DuplicateRecordItem.RecordId"
-    label = "Record ID"
-    _required = true
-    allowLookupRecordDeletion = true
-    referenceTo = [
-      salesforce.Account,
-      salesforce.Contact,
-      salesforce.Individual,
-      salesforce.Lead,
-      salesforce.Pet__c,
-      salesforce.TestCustomSettings__c,
-    ]
-    createable = true
-    updateable = true
-    queryable = true
   }
 }

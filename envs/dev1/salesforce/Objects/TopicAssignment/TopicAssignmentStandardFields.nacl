@@ -48,6 +48,7 @@ type salesforce.TopicAssignment {
       salesforce.ServiceTerritoryMember,
       salesforce.Solution,
       salesforce.Task,
+      salesforce.TestCustomSettings__c,
     ]
     createable = true
     updateable = false

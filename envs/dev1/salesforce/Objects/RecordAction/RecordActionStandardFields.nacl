@@ -105,6 +105,7 @@ type salesforce.RecordAction {
       salesforce.ServiceTerritory,
       salesforce.ServiceTerritoryMember,
       salesforce.SkillRequirement,
+      salesforce.TestCustomSettings__c,
       salesforce.TimeSlot,
       salesforce.User,
       salesforce.WorkType,

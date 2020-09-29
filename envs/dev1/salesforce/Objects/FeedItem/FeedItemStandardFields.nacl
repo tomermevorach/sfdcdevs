@@ -50,6 +50,7 @@ type salesforce.FeedItem {
       salesforce.SkillRequirement,
       salesforce.Solution,
       salesforce.Task,
+      salesforce.TestCustomSettings__c,
       salesforce.Topic,
       salesforce.User,
       salesforce.WorkType,
