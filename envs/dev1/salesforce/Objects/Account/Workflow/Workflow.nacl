@@ -1,0 +1,9 @@
+salesforce.Workflow Account {
+  fullName = "Account"
+  alerts = [
+    salesforce.WorkflowAlert.instance.Account_samle_email_alert,
+  ]
+  _parent = [
+    salesforce.Account,
+  ]
+}
