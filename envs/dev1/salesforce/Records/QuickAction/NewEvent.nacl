@@ -42,6 +42,6 @@ salesforce.QuickAction NewEvent {
     ]
   }
   standardLabel = "New"
-  targetObject = "Event"
+  targetObject = salesforce.Event
   type = "Create"
 }

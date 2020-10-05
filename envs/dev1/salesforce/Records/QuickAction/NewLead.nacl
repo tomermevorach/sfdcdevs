@@ -30,6 +30,6 @@ salesforce.QuickAction NewLead {
     ]
   }
   standardLabel = "New"
-  targetObject = "Lead"
+  targetObject = salesforce.Lead
   type = "Create"
 }

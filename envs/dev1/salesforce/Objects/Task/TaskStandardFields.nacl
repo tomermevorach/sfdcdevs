@@ -368,39 +368,39 @@ type salesforce.Task {
         isActive = true
       },
       {
+        fullName = "Pacific/Norfolk"
+        default = false
+        label = "(GMT+12:00) Norfolk Island Time (Pacific/Norfolk)"
+        isActive = true
+      },
+      {
+        fullName = "Australia/Lord_Howe"
+        default = false
+        label = "(GMT+11:00) Lord Howe Daylight Time (Australia/Lord_Howe)"
+        isActive = true
+      },
+      {
+        fullName = "Australia/Sydney"
+        default = false
+        label = "(GMT+11:00) Australian Eastern Daylight Time (Australia/Sydney)"
+        isActive = true
+      },
+      {
         fullName = "Pacific/Guadalcanal"
         default = false
         label = "(GMT+11:00) Solomon Islands Time (Pacific/Guadalcanal)"
         isActive = true
       },
       {
-        fullName = "Pacific/Norfolk"
+        fullName = "Australia/Adelaide"
         default = false
-        label = "(GMT+11:00) Norfolk Island Time (Pacific/Norfolk)"
-        isActive = true
-      },
-      {
-        fullName = "Australia/Lord_Howe"
-        default = false
-        label = "(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)"
+        label = "(GMT+10:30) Australian Central Daylight Time (Australia/Adelaide)"
         isActive = true
       },
       {
         fullName = "Australia/Brisbane"
         default = false
         label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Brisbane)"
-        isActive = true
-      },
-      {
-        fullName = "Australia/Sydney"
-        default = false
-        label = "(GMT+10:00) Australian Eastern Standard Time (Australia/Sydney)"
-        isActive = true
-      },
-      {
-        fullName = "Australia/Adelaide"
-        default = false
-        label = "(GMT+09:30) Australian Central Standard Time (Australia/Adelaide)"
         isActive = true
       },
       {

@@ -13,6 +13,7 @@ salesforce.CustomObjectTranslation TestCustomSettings__c_en_US {
   fields = [
     {
       name = salesforce.TestCustomSettings__c.field.TestText__c
+      label = ""
     },
   ]
   startsWith = "Consonant"

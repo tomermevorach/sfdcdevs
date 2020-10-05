@@ -38,6 +38,6 @@ salesforce.QuickAction NewOpportunity {
     ]
   }
   standardLabel = "New"
-  targetObject = "Opportunity"
+  targetObject = salesforce.Opportunity
   type = "Create"
 }

@@ -13,26 +13,34 @@ salesforce.CustomObjectTranslation Pet__c_en_US {
   fields = [
     {
       name = salesforce.Pet__c.field.Age__c
+      label = ""
     },
     {
       name = salesforce.Pet__c.field.Formula1__c
+      label = ""
     },
     {
       name = salesforce.Pet__c.field.Last_visit__c
+      label = ""
     },
     {
       name = salesforce.Pet__c.field.Pet_Type__c
       picklistValues = [
         {
           masterLabel = "dog,cat,fish"
+          translation = ""
         },
       ]
+      label = ""
     },
     {
       name = salesforce.Pet__c.field.Sound__c
+      help = ""
+      label = ""
     },
     {
       name = salesforce.Pet__c.field.test1__c
+      label = ""
     },
   ]
   layouts = [
@@ -41,6 +49,7 @@ salesforce.CustomObjectTranslation Pet__c_en_US {
       sections = [
         {
           section = "Custom Links"
+          label = ""
         },
       ]
     },

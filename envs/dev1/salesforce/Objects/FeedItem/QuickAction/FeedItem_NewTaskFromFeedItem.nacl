@@ -34,7 +34,7 @@ salesforce.QuickAction FeedItem_NewTaskFromFeedItem {
     ]
   }
   standardLabel = "CreateNew"
-  targetObject = "Task"
+  targetObject = salesforce.Task
   type = "Create"
   _parent = [
     salesforce.FeedItem,

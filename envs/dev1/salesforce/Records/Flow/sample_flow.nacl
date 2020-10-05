@@ -54,7 +54,7 @@ salesforce.Flow sample_flow {
         },
       ]
       getFirstRecordOnly = true
-      object = "Lead"
+      object = salesforce.Lead
       storeOutputAutomatically = true
     },
   ]
@@ -64,7 +64,7 @@ salesforce.Flow sample_flow {
     connector = {
       targetReference = "sample_get_records"
     }
-    object = "Campaign"
+    object = salesforce.Campaign
     triggerType = "RecordBeforeSave"
   }
   status = "Draft"
