@@ -5,7 +5,6 @@ salesforce {
     "ReportFolder",
     "Dashboard",
     "DashboardFolder",
-    "Profile",
     "ForecastingSettings",
   ]
   instancesRegexSkippedList = [

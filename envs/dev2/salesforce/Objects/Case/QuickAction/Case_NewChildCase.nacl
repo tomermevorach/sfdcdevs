@@ -30,7 +30,7 @@ salesforce.QuickAction Case_NewChildCase {
     ]
   }
   standardLabel = "NewChild"
-  targetObject = "Case"
+  targetObject = salesforce.Case
   targetParentField = "Parent"
   type = "Create"
   _parent = [

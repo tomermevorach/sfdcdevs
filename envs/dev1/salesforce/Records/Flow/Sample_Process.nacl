@@ -13,7 +13,7 @@ salesforce.Flow Sample_Process {
     label = "sample action"
     locationX = 100
     locationY = 200
-    actionName = "SampleApex"
+    actionName = salesforce.ApexClass.instance.SampleApex
     actionType = "apex"
   }
   decisions = [

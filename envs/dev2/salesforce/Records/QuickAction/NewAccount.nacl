@@ -34,6 +34,6 @@ salesforce.QuickAction NewAccount {
     ]
   }
   standardLabel = "New"
-  targetObject = "Account"
+  targetObject = salesforce.Account
   type = "Create"
 }

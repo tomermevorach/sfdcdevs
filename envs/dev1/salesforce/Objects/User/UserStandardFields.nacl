@@ -2227,7 +2227,7 @@ type salesforce.User {
     _required = true
     allowLookupRecordDeletion = true
     referenceTo = [
-      "Profile",
+      salesforce.Profile,
     ]
     createable = true
     updateable = true

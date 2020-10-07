@@ -26,6 +26,6 @@ salesforce.QuickAction NewGroup {
     ]
   }
   standardLabel = "New"
-  targetObject = "CollaborationGroup"
+  targetObject = salesforce.CollaborationGroup
   type = "Create"
 }

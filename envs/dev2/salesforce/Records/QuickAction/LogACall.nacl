@@ -30,6 +30,6 @@ salesforce.QuickAction LogACall {
     ]
   }
   standardLabel = "LogACall"
-  targetObject = "Task"
+  targetObject = salesforce.Task
   type = "LogACall"
 }

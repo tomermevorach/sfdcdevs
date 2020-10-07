@@ -30,6 +30,6 @@ salesforce.QuickAction NewContact {
     ]
   }
   standardLabel = "New"
-  targetObject = "Contact"
+  targetObject = salesforce.Contact
   type = "Create"
 }

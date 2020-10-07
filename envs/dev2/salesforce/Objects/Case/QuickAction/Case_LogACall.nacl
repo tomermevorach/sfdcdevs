@@ -39,7 +39,7 @@ salesforce.QuickAction Case_LogACall {
     ]
   }
   standardLabel = "LogACall"
-  targetObject = "Task"
+  targetObject = salesforce.Task
   targetParentField = "What"
   type = "LogACall"
   _parent = [

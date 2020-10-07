@@ -34,8 +34,7 @@ CASE(Pet_Type__c,
 "dog", "woof",
 "cat", "mew",
 "fish", "shh",
-"sheep", "meeeeeeeeeeeee",
-"")
+"sheep", "meeeeeeeeeeeee","")
 '''
     inlineHelpText = "help text from SaaS UI"
     createable = false

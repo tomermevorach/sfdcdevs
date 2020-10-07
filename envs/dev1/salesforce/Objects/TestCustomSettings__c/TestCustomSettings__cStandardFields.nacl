@@ -36,7 +36,7 @@ type salesforce.TestCustomSettings__c {
     allowLookupRecordDeletion = true
     referenceTo = [
       "Organization",
-      "Profile",
+      salesforce.Profile,
       salesforce.User,
     ]
     createable = true

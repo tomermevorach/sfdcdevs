@@ -22,7 +22,7 @@ salesforce.QuickAction CollaborationGroup_NewGroupMember {
     ]
   }
   standardLabel = "AddMember"
-  targetObject = "CollaborationGroupMember"
+  targetObject = salesforce.CollaborationGroupMember
   targetParentField = "CollaborationGroup"
   type = "Create"
   _parent = [
