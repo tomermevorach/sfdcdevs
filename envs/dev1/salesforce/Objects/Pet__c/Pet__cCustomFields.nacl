@@ -14,9 +14,9 @@ type salesforce.Pet__c {
     _required = true
     valueSet = [
       {
-        fullName = "dog,cat,fish"
+        fullName = "pet_types_list"
         default = false
-        label = "dog,cat,fish"
+        label = "dog,cat"
       },
     ]
     restricted = true
@@ -24,6 +24,7 @@ type salesforce.Pet__c {
     updateable = true
     queryable = true
     sorted = false
+    description = "Custom object representing a pet"
   }
   salesforce.FormulaText Sound__c {
     apiName = "Pet__c.Sound__c"
@@ -33,7 +34,6 @@ type salesforce.Pet__c {
 CASE(Pet_Type__c,
 "dog", "woof",
 "cat", "mew",
-"fish", "shh",
 "")
 '''
     inlineHelpText = "some help text.."
