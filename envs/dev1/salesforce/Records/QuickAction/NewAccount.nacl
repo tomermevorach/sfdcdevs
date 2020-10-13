@@ -8,14 +8,17 @@ salesforce.QuickAction NewAccount {
           {
             emptySpace = false
             field = "Name"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "Phone"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Industry"
+            uiBehavior = "Edit"
           },
         ]
       },
@@ -24,14 +27,17 @@ salesforce.QuickAction NewAccount {
           {
             emptySpace = false
             field = "Type"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Website"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = salesforce.Account

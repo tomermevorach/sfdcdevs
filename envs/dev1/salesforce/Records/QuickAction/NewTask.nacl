@@ -8,30 +8,37 @@ salesforce.QuickAction NewTask {
           {
             emptySpace = false
             field = "Subject"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "ActivityDate"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhoId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhatId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "OwnerId"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "Status"
+            uiBehavior = "Required"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = salesforce.Task

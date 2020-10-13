@@ -3,4 +3,6 @@ salesforce.OrgSettings {
   enableExtendedMailMerge = false
   enableManageSelfServiceUsers = false
   saveMailMergeDocsAsSalesforceDocs = false
+  enableMakeDeploymentsMandatory = "true"
+  enableRADeploymentAttributeOnly = "true"
 }

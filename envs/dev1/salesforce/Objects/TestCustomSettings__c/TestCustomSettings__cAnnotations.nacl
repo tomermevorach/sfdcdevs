@@ -40,40 +40,24 @@ type salesforce.TestCustomSettings__c {
     }
     string externalSharingModel {
     }
-    boolean allowInChatterGroups {
-    }
-    string customHelp {
-    }
-    string customHelpPage {
-    }
+    
+    
+    
     string customSettingsType {
     }
-    string deploymentStatus {
-    }
-    boolean deprecated {
-    }
-    boolean enableActivities {
-    }
-    boolean enableBulkApi {
-    }
-    boolean enableReports {
-    }
-    boolean enableSearch {
-    }
-    boolean enableSharing {
-    }
-    boolean enableStreamingApi {
-    }
-    string gender {
-    }
-    salesforce.CustomField nameField {
-    }
-    string pluralLabel {
-    }
-    string sharingModel {
-    }
-    string startsWith {
-    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     string visibility {
     }
   }

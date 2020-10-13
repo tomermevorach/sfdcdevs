@@ -8,38 +8,47 @@ salesforce.QuickAction NewEvent {
           {
             emptySpace = false
             field = "Subject"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "StartDateTime"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "EndDateTime"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "IsAllDayEvent"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhoId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhatId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "OwnerId"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "Location"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = salesforce.Event

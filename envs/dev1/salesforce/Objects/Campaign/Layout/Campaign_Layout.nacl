@@ -192,37 +192,37 @@ salesforce.Layout Campaign_Layout {
         sortOrder = 1
       },
       {
-        actionName = "NewEvent"
+        actionName = salesforce.QuickAction.instance.NewEvent
         actionType = "QuickAction"
         sortOrder = 2
       },
       {
-        actionName = "NewTask"
+        actionName = salesforce.QuickAction.instance.NewTask
         actionType = "QuickAction"
         sortOrder = 3
       },
       {
-        actionName = "NewContact"
+        actionName = salesforce.QuickAction.instance.NewContact
         actionType = "QuickAction"
         sortOrder = 4
       },
       {
-        actionName = "LogACall"
+        actionName = salesforce.QuickAction.instance.LogACall
         actionType = "QuickAction"
         sortOrder = 5
       },
       {
-        actionName = "NewOpportunity"
+        actionName = salesforce.QuickAction.instance.NewOpportunity
         actionType = "QuickAction"
         sortOrder = 6
       },
       {
-        actionName = "NewCase"
+        actionName = salesforce.QuickAction.instance.NewCase
         actionType = "QuickAction"
         sortOrder = 7
       },
       {
-        actionName = "NewLead"
+        actionName = salesforce.QuickAction.instance.NewLead
         actionType = "QuickAction"
         sortOrder = 8
       },
@@ -242,7 +242,7 @@ salesforce.Layout Campaign_Layout {
         sortOrder = 11
       },
       {
-        actionName = "SendEmail"
+        actionName = salesforce.QuickAction.instance.SendEmail
         actionType = "QuickAction"
         sortOrder = 12
       },
@@ -314,7 +314,7 @@ salesforce.Layout Campaign_Layout {
         quickActionName = "FeedItem.TextPost"
       },
       {
-        quickActionName = "SendEmail"
+        quickActionName = salesforce.QuickAction.instance.SendEmail
       },
     ]
   }

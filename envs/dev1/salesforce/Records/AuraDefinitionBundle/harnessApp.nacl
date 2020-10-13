@@ -4,4 +4,5 @@ salesforce.AuraDefinitionBundle harnessApp {
   fullName = "harnessApp"
   type = "Application"
   markup = file("salesforce/Records/AuraDefinitionBundle/harnessApp/harnessApp.app")
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

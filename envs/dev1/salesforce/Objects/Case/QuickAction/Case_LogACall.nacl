@@ -11,15 +11,18 @@ salesforce.QuickAction Case_LogACall {
         quickActionLayoutItems = [
           {
             emptySpace = false
-            field = "Subject"
+            field = salesforce.Case.field.Subject
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
-            field = "Description"
+            field = salesforce.Case.field.Description
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhoId"
+            uiBehavior = "Edit"
           },
         ]
       },
@@ -27,16 +30,20 @@ salesforce.QuickAction Case_LogACall {
         quickActionLayoutItems = [
           {
             emptySpace = true
+            uiBehavior = "Edit"
           },
           {
             emptySpace = true
+            uiBehavior = "Edit"
           },
           {
             emptySpace = true
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "LogACall"
   targetObject = salesforce.Task

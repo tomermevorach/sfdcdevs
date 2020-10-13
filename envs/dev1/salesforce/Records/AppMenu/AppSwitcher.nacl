@@ -2,84 +2,88 @@ salesforce.AppMenu AppSwitcher {
   fullName = "AppSwitcher"
   appMenuItems = [
     {
-      name = "standard__Platform"
+      name = salesforce.CustomApplication.instance.standard__Platform
       type = "CustomApplication"
     },
     {
-      name = "standard__Sales"
+      name = salesforce.CustomApplication.instance.standard__Sales
       type = "CustomApplication"
     },
     {
-      name = "standard__Service"
+      name = salesforce.CustomApplication.instance.standard__Service
       type = "CustomApplication"
     },
     {
-      name = "standard__Marketing"
+      name = salesforce.CustomApplication.instance.standard__Marketing
       type = "CustomApplication"
     },
     {
-      name = "standard__ServiceConsole"
+      name = salesforce.CustomApplication.instance.standard__ServiceConsole
       type = "CustomApplication"
     },
     {
-      name = "standard__AppLauncher"
+      name = salesforce.CustomApplication.instance.standard__AppLauncher
       type = "CustomApplication"
     },
     {
-      name = "standard__Community"
+      name = salesforce.CustomApplication.instance.standard__Community
       type = "CustomApplication"
     },
     {
-      name = "standard__Sites"
+      name = salesforce.CustomApplication.instance.standard__Sites
       type = "CustomApplication"
     },
     {
-      name = "standard__Chatter"
+      name = salesforce.CustomApplication.instance.standard__Chatter
       type = "CustomApplication"
     },
     {
-      name = "standard__Content"
+      name = salesforce.CustomApplication.instance.standard__Content
       type = "CustomApplication"
     },
     {
-      name = "standard__Insights"
+      name = salesforce.CustomApplication.instance.standard__Insights
       type = "CustomApplication"
     },
     {
-      name = "standard__LightningSalesConsole"
+      name = salesforce.CustomApplication.instance.standard__LightningSalesConsole
       type = "CustomApplication"
     },
     {
-      name = "standard__LightningService"
+      name = salesforce.CustomApplication.instance.standard__LightningService
       type = "CustomApplication"
     },
     {
-      name = "standard__LightningSales"
+      name = salesforce.CustomApplication.instance.standard__LightningSales
       type = "CustomApplication"
     },
     {
-      name = "standard__LightningInstrumentation"
+      name = salesforce.CustomApplication.instance.standard__LightningInstrumentation
       type = "CustomApplication"
     },
     {
-      name = "standard__SalesforceCMS"
+      name = salesforce.CustomApplication.instance.standard__SalesforceCMS
       type = "CustomApplication"
     },
     {
-      name = "standard__LightningScheduler"
+      name = salesforce.CustomApplication.instance.standard__LightningScheduler
       type = "CustomApplication"
     },
     {
-      name = "standard__LightningBolt"
+      name = salesforce.CustomApplication.instance.standard__LightningBolt
       type = "CustomApplication"
     },
     {
-      name = "standard__AllTabSet"
+      name = salesforce.CustomApplication.instance.standard__AllTabSet
       type = "CustomApplication"
     },
     {
-      name = "standard__Commerce"
+      name = salesforce.CustomApplication.instance.standard__Commerce
       type = "CustomApplication"
+    },
+    {
+      name = salesforce.ConnectedApp.instance.Oauth_test
+      type = "ConnectedApp"
     },
   ]
 }

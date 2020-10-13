@@ -4,4 +4,5 @@ salesforce.IndustriesSettings {
   enableEventManagementOrgPref = false
   enableMultiResourceOrgPref = false
   enableOverbookingOrgPref = false
+  enableIndLoyaltyEnabled = "false"
 }

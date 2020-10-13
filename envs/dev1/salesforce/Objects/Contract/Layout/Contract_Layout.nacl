@@ -211,4 +211,8 @@ salesforce.Layout Contract_Layout {
   _parent = [
     salesforce.Contract,
   ]
+  headers = [
+    "PersonalTagging",
+    "PublicTagging",
+  ]
 }

@@ -8,18 +8,22 @@ salesforce.QuickAction NewNote {
           {
             emptySpace = false
             field = "Title"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "IsPrivate"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Body"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = "Note"

@@ -8,4 +8,11 @@ salesforce.UserInterfaceSettings {
   enableInlineEdit = true
   enablePersonalCanvas = true
   enableQuickCreate = true
+  alternateAlohaListView = "true"
+  enableCollapsibleSideBar = "false"
+  enableCustomeSideBarOnAllPages = "false"
+  enableNewPageLayoutEditor = "true"
+  enablePrintableListViews = "true"
+  enableProfileCustomTabsets = "true"
+  enableTabOrganizer = "true"
 }

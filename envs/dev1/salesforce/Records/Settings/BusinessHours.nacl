@@ -19,6 +19,7 @@ salesforce.BusinessHoursSettings {
       tuesdayStartTime = "00:00:00.000Z"
       wednesdayEndTime = "00:00:00.000Z"
       wednesdayStartTime = "00:00:00.000Z"
+      active = "true"
     },
   ]
 }

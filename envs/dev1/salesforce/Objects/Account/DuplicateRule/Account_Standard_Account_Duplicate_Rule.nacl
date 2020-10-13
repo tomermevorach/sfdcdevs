@@ -6,7 +6,7 @@ salesforce.DuplicateRule Account_Standard_Account_Duplicate_Rule {
   description = "Identify accounts that duplicate other accounts."
   duplicateRuleMatchRules = [
     {
-      matchRuleSObjectType = "Account"
+      matchRuleSObjectType = salesforce.Account
       matchingRule = "Standard_Account_Match_Rule_v1_0"
     },
   ]
@@ -17,4 +17,9 @@ salesforce.DuplicateRule Account_Standard_Account_Duplicate_Rule {
   _parent = [
     salesforce.Account,
   ]
+  operationsOnInsert = [
+    "Alert",
+    "Report",
+  ]
+  operationsOnUpdate = "Report"
 }

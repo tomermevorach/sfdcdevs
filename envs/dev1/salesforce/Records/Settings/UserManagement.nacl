@@ -6,4 +6,6 @@ salesforce.UserManagementSettings {
   enableNewProfileUI = false
   enableScrambleUserData = false
   enableUserSelfDeactivate = false
+  enableCanAnswerContainUsername = "true"
+  enableConcealPersonalInfo = "true"
 }

@@ -8,14 +8,17 @@ salesforce.QuickAction CollaborationGroup_NewGroupRecord {
           {
             emptySpace = false
             field = "CollaborationGroupId"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "RecordId"
+            uiBehavior = "Required"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "AddRecord"
   targetObject = "CollaborationGroupRecord"

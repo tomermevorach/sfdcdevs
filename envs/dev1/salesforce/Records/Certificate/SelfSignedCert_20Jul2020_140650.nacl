@@ -7,4 +7,5 @@ salesforce.Certificate SelfSignedCert_20Jul2020_140650 {
   privateKeyExportable = true
   fullName = "SelfSignedCert_20Jul2020_140650"
   content = file("salesforce/Records/Certificate/SelfSignedCert_20Jul2020_140650.crt")
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

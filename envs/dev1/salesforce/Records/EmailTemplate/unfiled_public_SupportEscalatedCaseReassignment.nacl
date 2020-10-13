@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_SupportEscalatedCaseReassignment {
   uiType = "Aloha"
   fullName = "unfiled$public/SupportEscalatedCaseReassignment"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/SupportEscalatedCaseReassignment.email")
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

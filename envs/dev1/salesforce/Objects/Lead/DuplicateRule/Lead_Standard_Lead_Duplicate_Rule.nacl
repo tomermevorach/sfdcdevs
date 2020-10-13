@@ -6,23 +6,23 @@ salesforce.DuplicateRule Lead_Standard_Lead_Duplicate_Rule {
   description = "Identify leads that duplicate other leads and contacts."
   duplicateRuleMatchRules = [
     {
-      matchRuleSObjectType = "Contact"
+      matchRuleSObjectType = salesforce.Contact
       matchingRule = "Standard_Contact_Match_Rule_v1_1"
       objectMapping = [
         {
-          inputObject = "Lead"
+          inputObject = salesforce.Lead
           mappingFields = [
             {
               inputField = "City"
               outputField = "MailingCity"
             },
             {
-              inputField = "Company"
-              outputField = "AccountId"
+              inputField = salesforce.Lead.field.Company
+              outputField = salesforce.Contact.field.AccountId
             },
             {
-              inputField = "Email"
-              outputField = "Email"
+              inputField = salesforce.Lead.field.Email
+              outputField = salesforce.Contact.field.Email
             },
             {
               inputField = "FirstName"
@@ -33,8 +33,8 @@ salesforce.DuplicateRule Lead_Standard_Lead_Duplicate_Rule {
               outputField = "LastName"
             },
             {
-              inputField = "Phone"
-              outputField = "Phone"
+              inputField = salesforce.Lead.field.Phone
+              outputField = salesforce.Contact.field.Phone
             },
             {
               inputField = "PostalCode"
@@ -45,16 +45,16 @@ salesforce.DuplicateRule Lead_Standard_Lead_Duplicate_Rule {
               outputField = "MailingStreet"
             },
             {
-              inputField = "Title"
-              outputField = "Title"
+              inputField = salesforce.Lead.field.Title
+              outputField = salesforce.Contact.field.Title
             },
           ]
-          outputObject = "Contact"
+          outputObject = salesforce.Contact
         },
       ]
     },
     {
-      matchRuleSObjectType = "Lead"
+      matchRuleSObjectType = salesforce.Lead
       matchingRule = "Standard_Lead_Match_Rule_v1_0"
     },
   ]
@@ -65,4 +65,9 @@ salesforce.DuplicateRule Lead_Standard_Lead_Duplicate_Rule {
   _parent = [
     salesforce.Lead,
   ]
+  operationsOnInsert = [
+    "Alert",
+    "Report",
+  ]
+  operationsOnUpdate = "Report"
 }

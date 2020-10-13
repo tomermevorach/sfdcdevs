@@ -7,11 +7,13 @@ salesforce.QuickAction Task_UpdatePriority {
         quickActionLayoutItems = [
           {
             emptySpace = false
-            field = "Priority"
+            field = salesforce.Task.field.Priority
+            uiBehavior = "Required"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "ChangePriority"
   type = "Update"

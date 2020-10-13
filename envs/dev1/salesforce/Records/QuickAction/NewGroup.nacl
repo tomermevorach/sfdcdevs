@@ -8,22 +8,27 @@ salesforce.QuickAction NewGroup {
           {
             emptySpace = false
             field = "Name"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "Description"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "CollaborationType"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "CanHaveGuests"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = salesforce.CollaborationGroup

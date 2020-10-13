@@ -7,27 +7,33 @@ salesforce.QuickAction Case_NewChildCase {
         quickActionLayoutItems = [
           {
             emptySpace = false
-            field = "ContactId"
+            field = salesforce.Case.field.ContactId
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
-            field = "Status"
+            field = salesforce.Case.field.Status
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
-            field = "Subject"
+            field = salesforce.Case.field.Subject
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
-            field = "ParentId"
+            field = salesforce.Case.field.ParentId
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
-            field = "Description"
+            field = salesforce.Case.field.Description
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "NewChild"
   targetObject = salesforce.Case

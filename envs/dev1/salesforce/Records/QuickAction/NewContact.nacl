@@ -8,26 +8,32 @@ salesforce.QuickAction NewContact {
           {
             emptySpace = false
             field = "Name"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "Email"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Phone"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "AccountId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Title"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = salesforce.Contact

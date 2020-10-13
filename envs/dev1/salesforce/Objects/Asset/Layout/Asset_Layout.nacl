@@ -176,4 +176,8 @@ salesforce.Layout Asset_Layout {
   _parent = [
     salesforce.Asset,
   ]
+  headers = [
+    "PersonalTagging",
+    "PublicTagging",
+  ]
 }

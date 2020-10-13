@@ -13,6 +13,11 @@ salesforce.SecuritySettings {
     minimumPasswordLength = "8"
     minimumPasswordLifetime = false
     obscureSecretAnswer = false
+    complexity = "AlphaNumeric"
+    expiration = "NinetyDays"
+    lockoutInterval = "FifteenMinutes"
+    maxLoginAttempts = "TenAttempts"
+    questionRestriction = "DoesNotContainPassword"
   }
   sessionSettings = {
     allowUserAuthenticationByCertificate = false
@@ -50,6 +55,7 @@ salesforce.SecuritySettings {
     requireHttpOnly = false
     requireHttps = true
     securityCentralKillSession = true
+    sessionTimeout = "TwoHours"
   }
   singleSignOnSettings = {
     enableMultipleSamlConfigs = true

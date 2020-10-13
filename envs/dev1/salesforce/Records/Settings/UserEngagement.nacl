@@ -26,4 +26,6 @@ salesforce.UserEngagementSettings {
   isMeetTheAssistantDisabledInClassic = false
   isMeetTheAssistantDisabledInLightning = false
   optimizerAppEnabled = false
+  isAutoTransitionDelayed = "false"
+  isCustomProfileAutoTransitionDelayed = "false"
 }

@@ -7,11 +7,13 @@ salesforce.QuickAction Task_UpdateStatus {
         quickActionLayoutItems = [
           {
             emptySpace = false
-            field = "Status"
+            field = salesforce.Task.field.Status
+            uiBehavior = "Required"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "ChangeStatus"
   type = "Update"

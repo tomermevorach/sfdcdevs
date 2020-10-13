@@ -133,37 +133,37 @@ salesforce.Layout Task_Layout {
         quickActionName = "FeedItem.TextPost"
       },
       {
-        quickActionName = "LogACall"
+        quickActionName = salesforce.QuickAction.instance.LogACall
       },
       {
-        quickActionName = "NewEvent"
+        quickActionName = salesforce.QuickAction.instance.NewEvent
       },
       {
-        quickActionName = "NewTask"
+        quickActionName = salesforce.QuickAction.instance.NewTask
       },
       {
-        quickActionName = "Task.Defer"
+        quickActionName = salesforce.QuickAction.instance.Task_Defer
       },
       {
-        quickActionName = "Task.Defer_0"
+        quickActionName = salesforce.QuickAction.instance.Task_Defer_0
       },
       {
-        quickActionName = "Task.EditDescription"
+        quickActionName = salesforce.QuickAction.instance.Task_EditDescription
       },
       {
-        quickActionName = "Task.EditDescription_0"
+        quickActionName = salesforce.QuickAction.instance.Task_EditDescription_0
       },
       {
-        quickActionName = "Task.UpdatePriority"
+        quickActionName = salesforce.QuickAction.instance.Task_UpdatePriority
       },
       {
-        quickActionName = "Task.UpdatePriority_0"
+        quickActionName = salesforce.QuickAction.instance.Task_UpdatePriority_0
       },
       {
-        quickActionName = "Task.UpdateStatus"
+        quickActionName = salesforce.QuickAction.instance.Task_UpdateStatus
       },
       {
-        quickActionName = "Task.UpdateStatus_0"
+        quickActionName = salesforce.QuickAction.instance.Task_UpdateStatus_0
       },
     ]
   }
@@ -198,5 +198,9 @@ salesforce.Layout Task_Layout {
   showSubmitAndAttachButton = false
   _parent = [
     salesforce.Task,
+  ]
+  headers = [
+    "PersonalTagging",
+    "PublicTagging",
   ]
 }

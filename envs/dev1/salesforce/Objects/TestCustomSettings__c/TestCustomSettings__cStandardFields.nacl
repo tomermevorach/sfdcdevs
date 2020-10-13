@@ -39,9 +39,10 @@ type salesforce.TestCustomSettings__c {
       salesforce.Profile,
       salesforce.User,
     ]
-    createable = true
-    updateable = true
+    createable = false
+    updateable = false
     queryable = true
+    _hidden = true
   }
   salesforce.DateTime CreatedDate {
     apiName = "TestCustomSettings__c.CreatedDate"

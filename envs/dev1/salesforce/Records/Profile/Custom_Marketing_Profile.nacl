@@ -104,7 +104,7 @@ salesforce.Profile Custom_Marketing_Profile {
   ]
   classAccesses = [
     {
-      apexClass = "SampleApex"
+      apexClass = salesforce.ApexClass.instance.SampleApex
       enabled = false
     },
   ]

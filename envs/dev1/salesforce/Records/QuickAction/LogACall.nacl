@@ -8,10 +8,12 @@ salesforce.QuickAction LogACall {
           {
             emptySpace = false
             field = "Subject"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhoId"
+            uiBehavior = "Edit"
           },
         ]
       },
@@ -20,14 +22,17 @@ salesforce.QuickAction LogACall {
           {
             emptySpace = false
             field = "Description"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhatId"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "LogACall"
   targetObject = salesforce.Task

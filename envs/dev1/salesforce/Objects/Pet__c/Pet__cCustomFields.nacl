@@ -34,16 +34,16 @@ CASE(Pet_Type__c,
 "dog", "woof",
 "cat", "mew",
 "fish", "shh",
-"sheep", "meeeeeeeeeeeee","")
+"")
 '''
-    inlineHelpText = "help text from SaaS UI"
+    inlineHelpText = "some help text.."
     createable = false
     updateable = false
     unique = false
     caseSensitive = false
     length = 1300
     queryable = true
-    description = "some desc from SaaS UI"
+    description = "some desc.."
     externalId = false
     formulaTreatBlanksAs = "BlankAsZero"
     _generated_dependencies = [
