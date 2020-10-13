@@ -16,7 +16,7 @@ type salesforce.Pet__c {
       {
         fullName = "pet_types_list"
         default = false
-        label = "dog,cat"
+        label = "dog,cat,fish"
       },
     ]
     restricted = true
@@ -34,6 +34,7 @@ type salesforce.Pet__c {
 CASE(Pet_Type__c,
 "dog", "woof",
 "cat", "mew",
+"fish", "shhhhh",
 "")
 '''
     inlineHelpText = "some help text.."

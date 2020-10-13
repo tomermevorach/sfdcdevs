@@ -27,7 +27,7 @@ salesforce.CustomObjectTranslation Pet__c_en_US {
       name = salesforce.Pet__c.field.Pet_Type__c
       picklistValues = [
         {
-          masterLabel = "dog,cat"
+          masterLabel = "dog,cat,fish"
           translation = ""
         },
       ]
