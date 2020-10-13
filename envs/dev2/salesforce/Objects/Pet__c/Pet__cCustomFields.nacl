@@ -1,0 +1,93 @@
+type salesforce.Pet__c {
+  salesforce.Number Age__c {
+    apiName = "Pet__c.Age__c"
+    label = "Age"
+    _required = false
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    externalId = false
+  }
+  salesforce.Number test1__c {
+    apiName = "Pet__c.test1__c"
+    label = "test1"
+    _required = false
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    externalId = false
+  }
+  salesforce.FormulaNumber Formula1__c {
+    apiName = "Pet__c.Formula1__c"
+    label = "Formula1"
+    _required = false
+    precision = 18
+    scale = 2
+    formula = "MIN(1, 3, 3, 4, 5, 13)"
+    createable = false
+    updateable = false
+    unique = false
+    queryable = true
+    description = "some desc"
+    externalId = false
+    formulaTreatBlanksAs = "BlankAsZero"
+  }
+  salesforce.DateTime Last_visit__c {
+    apiName = "Pet__c.Last_visit__c"
+    label = "Last visit"
+    _required = false
+    createable = true
+    updateable = true
+    queryable = true
+    description = "some desc"
+  }
+  salesforce.Picklist Pet_Type__c {
+    apiName = "Pet__c.Pet_Type__c"
+    label = "Pet Type"
+    _required = true
+    valueSet = [
+      {
+        fullName = "dog,cat,fish"
+        default = false
+        label = "dog,cat,fish"
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+    sorted = false
+  }
+  salesforce.FormulaText Sound__c {
+    apiName = "Pet__c.Sound__c"
+    label = "Sound"
+    _required = false
+    formula = '''
+CASE(Pet_Type__c,
+"dog", "woof",
+"cat", "mew",
+"fish", "shh",
+"sheep", "meeeee"
+,"")
+'''
+    inlineHelpText = "help text from SaaS UI"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 1300
+    queryable = true
+    description = "new desc.."
+    externalId = false
+    formulaTreatBlanksAs = "BlankAsZero"
+    _generated_dependencies = [
+      salesforce.Pet__c.field.Pet_Type__c,
+    ]
+  }
+}

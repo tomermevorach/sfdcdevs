@@ -5,6 +5,8 @@ salesforce.Territory2Rule TerModel1_Rule1 {
   ruleItems = {
     field = salesforce.Account.field.Name
     value = "bbb"
+    operation = "equals"
   }
   fullName = "TerModel1.Rule1"
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

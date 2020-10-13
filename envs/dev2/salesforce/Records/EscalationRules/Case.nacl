@@ -22,6 +22,17 @@ salesforce.EscalationRules Case {
             value = "High"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "120"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -41,6 +52,17 @@ salesforce.EscalationRules Case {
             value = "Medium,Low"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "360"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -60,6 +82,17 @@ salesforce.EscalationRules Case {
             value = "High"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "240"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -79,6 +112,17 @@ salesforce.EscalationRules Case {
             value = "Medium,Low"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "480"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -93,6 +137,17 @@ salesforce.EscalationRules Case {
             value = "Silver"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "720"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -107,6 +162,17 @@ salesforce.EscalationRules Case {
             value = "Bronze"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "1440"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -121,6 +187,17 @@ salesforce.EscalationRules Case {
             value = "Gold,Platinum"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "360"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
       {
         criteriaItems = [
@@ -135,6 +212,17 @@ salesforce.EscalationRules Case {
             value = "Silver,Bronze"
           },
         ]
+        businessHoursSource = "Case"
+        escalationAction = {
+          assignedTo = "tomer.mevorach+dev2@salto.io"
+          assignedToTemplate = "unfiled$public/SupportEscalatedCaseReassignment"
+          assignedToType = "User"
+          minutesToEscalation = "1080"
+          notifyCaseOwner = "false"
+          notifyTo = "tomer.mevorach+dev2@salto.io"
+          notifyToTemplate = "unfiled$public/SupportEscalatedCaseNotification"
+        }
+        escalationStartTime = "CaseCreation"
       },
     ]
   }

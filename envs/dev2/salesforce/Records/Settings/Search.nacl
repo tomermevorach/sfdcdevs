@@ -287,6 +287,12 @@ salesforce.SearchSettings {
       {
         enhancedLookupEnabled = false
         lookupAutoCompleteEnabled = false
+        name = salesforce.Pet__c
+        resultsPerPageCount = 0
+      },
+      {
+        enhancedLookupEnabled = false
+        lookupAutoCompleteEnabled = false
         name = salesforce.Pricebook2
         resultsPerPageCount = 25
       },
@@ -339,4 +345,5 @@ salesforce.SearchSettings {
   sidebarLimitToItemsIOwnCheckboxEnabled = true
   singleSearchResultShortcutEnabled = true
   spellCorrectKnowledgeSearchEnabled = false
+  enableQuerySuggestionPigOn = "false"
 }

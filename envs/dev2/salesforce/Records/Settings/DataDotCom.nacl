@@ -6,4 +6,8 @@ salesforce.DataDotComSettings {
   enableAllowDupeLeadFromContact = false
   enableContactExportButtonOff = false
   enableContactImportButtonOff = false
+  enableDDCSocialKeyEnabled = "false"
+  enableDataDotComCleanEnabled = "true"
+  enableDataDotComOptOutsEnabled = "false"
+  enableDatacloudAPIEnabled = "true"
 }

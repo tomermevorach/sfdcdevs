@@ -35,6 +35,7 @@ type salesforce.FeedItem {
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.OrderItem,
+      salesforce.Pet__c,
       salesforce.Product2,
       "Report",
       salesforce.ResourceAbsence,

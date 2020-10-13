@@ -38,6 +38,7 @@ type salesforce.TopicAssignment {
       salesforce.Lead,
       salesforce.Opportunity,
       salesforce.Order,
+      salesforce.Pet__c,
       salesforce.ResourceAbsence,
       salesforce.ResourcePreference,
       salesforce.ServiceAppointment,

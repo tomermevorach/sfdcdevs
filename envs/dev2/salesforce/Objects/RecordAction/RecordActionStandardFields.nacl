@@ -93,6 +93,7 @@ type salesforce.RecordAction {
       salesforce.OperatingHours,
       salesforce.Opportunity,
       salesforce.Order,
+      salesforce.Pet__c,
       salesforce.Pricebook2,
       salesforce.PricebookEntry,
       salesforce.Product2,

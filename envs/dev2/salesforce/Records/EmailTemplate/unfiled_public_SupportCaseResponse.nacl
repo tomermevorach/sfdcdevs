@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_SupportCaseResponse {
   uiType = "Aloha"
   fullName = "unfiled$public/SupportCaseResponse"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/SupportCaseResponse.email")
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

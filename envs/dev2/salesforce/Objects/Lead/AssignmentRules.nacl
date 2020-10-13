@@ -33,4 +33,5 @@ salesforce.AssignmentRules Lead {
   _parent = [
     salesforce.Lead,
   ]
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

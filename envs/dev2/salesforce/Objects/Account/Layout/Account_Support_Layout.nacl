@@ -228,37 +228,37 @@ salesforce.Layout Account_Support_Layout {
         sortOrder = 1
       },
       {
-        actionName = "NewTask"
+        actionName = salesforce.QuickAction.instance.NewTask
         actionType = "QuickAction"
         sortOrder = 2
       },
       {
-        actionName = "NewContact"
+        actionName = salesforce.QuickAction.instance.NewContact
         actionType = "QuickAction"
         sortOrder = 3
       },
       {
-        actionName = "NewCase"
+        actionName = salesforce.QuickAction.instance.NewCase
         actionType = "QuickAction"
         sortOrder = 4
       },
       {
-        actionName = "LogACall"
+        actionName = salesforce.QuickAction.instance.LogACall
         actionType = "QuickAction"
         sortOrder = 5
       },
       {
-        actionName = "NewNote"
+        actionName = salesforce.QuickAction.instance.NewNote
         actionType = "QuickAction"
         sortOrder = 6
       },
       {
-        actionName = "NewOpportunity"
+        actionName = salesforce.QuickAction.instance.NewOpportunity
         actionType = "QuickAction"
         sortOrder = 7
       },
       {
-        actionName = "NewEvent"
+        actionName = salesforce.QuickAction.instance.NewEvent
         actionType = "QuickAction"
         sortOrder = 8
       },
@@ -278,7 +278,7 @@ salesforce.Layout Account_Support_Layout {
         sortOrder = 11
       },
       {
-        actionName = "SendEmail"
+        actionName = salesforce.QuickAction.instance.SendEmail
         actionType = "QuickAction"
         sortOrder = 12
       },
@@ -377,28 +377,28 @@ salesforce.Layout Account_Support_Layout {
         quickActionName = "FeedItem.TextPost"
       },
       {
-        quickActionName = "LogACall"
+        quickActionName = salesforce.QuickAction.instance.LogACall
       },
       {
-        quickActionName = "NewCase"
+        quickActionName = salesforce.QuickAction.instance.NewCase
       },
       {
-        quickActionName = "NewContact"
+        quickActionName = salesforce.QuickAction.instance.NewContact
       },
       {
-        quickActionName = "NewEvent"
+        quickActionName = salesforce.QuickAction.instance.NewEvent
       },
       {
-        quickActionName = "NewNote"
+        quickActionName = salesforce.QuickAction.instance.NewNote
       },
       {
-        quickActionName = "NewOpportunity"
+        quickActionName = salesforce.QuickAction.instance.NewOpportunity
       },
       {
-        quickActionName = "NewTask"
+        quickActionName = salesforce.QuickAction.instance.NewTask
       },
       {
-        quickActionName = "SendEmail"
+        quickActionName = salesforce.QuickAction.instance.SendEmail
       },
     ]
   }

@@ -11,4 +11,5 @@ salesforce.Territory2 TerModel1_Ter11 {
   }
   territory2Type = salesforce.Territory2Type.instance.TerType2
   fullName = "TerModel1.Ter11"
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

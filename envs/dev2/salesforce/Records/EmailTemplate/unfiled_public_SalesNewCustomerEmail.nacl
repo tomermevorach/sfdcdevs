@@ -9,4 +9,5 @@ salesforce.EmailTemplate unfiled_public_SalesNewCustomerEmail {
   uiType = "Aloha"
   fullName = "unfiled$public/SalesNewCustomerEmail"
   content = file("salesforce/Records/EmailTemplate/unfiled$public/SalesNewCustomerEmail.email")
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

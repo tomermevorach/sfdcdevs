@@ -8,22 +8,27 @@ salesforce.QuickAction NewCase {
           {
             emptySpace = false
             field = "ContactId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Status"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "Subject"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Description"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "New"
   targetObject = salesforce.Case

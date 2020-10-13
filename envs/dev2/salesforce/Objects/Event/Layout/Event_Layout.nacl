@@ -163,4 +163,8 @@ salesforce.Layout Event_Layout {
   _parent = [
     salesforce.Event,
   ]
+  headers = [
+    "PersonalTagging",
+    "PublicTagging",
+  ]
 }

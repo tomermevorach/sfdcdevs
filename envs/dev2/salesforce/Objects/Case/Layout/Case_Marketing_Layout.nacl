@@ -246,7 +246,7 @@ salesforce.Layout Case_Marketing_Layout {
         quickActionName = "Case.ChangeStatus"
       },
       {
-        quickActionName = "Case.LogACall"
+        quickActionName = salesforce.QuickAction.instance.Case_LogACall
       },
       {
         quickActionName = "FeedItem.ContentPost"
@@ -392,5 +392,9 @@ salesforce.Layout Case_Marketing_Layout {
   }
   _parent = [
     salesforce.Case,
+  ]
+  headers = [
+    "PersonalTagging",
+    "PublicTagging",
   ]
 }

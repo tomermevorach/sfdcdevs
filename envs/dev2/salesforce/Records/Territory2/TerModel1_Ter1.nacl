@@ -6,4 +6,5 @@ salesforce.Territory2 TerModel1_Ter1 {
   opportunityAccessLevel = "Edit"
   territory2Type = salesforce.Territory2Type.instance.TerType1
   fullName = "TerModel1.Ter1"
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

@@ -2,4 +2,5 @@ salesforce.Territory2Type TerType2 {
   name = "TerType2"
   priority = 200
   fullName = "TerType2"
+  attr_xmlns = "http://soap.sforce.com/2006/04/metadata"
 }

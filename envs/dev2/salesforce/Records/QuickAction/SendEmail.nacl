@@ -8,38 +8,47 @@ salesforce.QuickAction SendEmail {
           {
             emptySpace = false
             field = "ValidatedFromAddress"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "ToAddress"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "CcAddress"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "BccAddress"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Subject"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "HtmlBody"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "RelatedToId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "EmailTemplateId"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "SendEmail"
   targetObject = "OutgoingEmail"

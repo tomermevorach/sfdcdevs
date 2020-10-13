@@ -104,7 +104,7 @@ salesforce.Profile StandardAul {
   ]
   classAccesses = [
     {
-      apexClass = "SampleApex"
+      apexClass = salesforce.ApexClass.instance.SampleApex
       enabled = false
     },
   ]
@@ -1896,6 +1896,31 @@ salesforce.Profile StandardAul {
       readable = false
     },
     {
+      editable = false
+      field = salesforce.Pet__c.field.Age__c
+      readable = false
+    },
+    {
+      editable = false
+      field = salesforce.Pet__c.field.Formula1__c
+      readable = false
+    },
+    {
+      editable = false
+      field = salesforce.Pet__c.field.Last_visit__c
+      readable = false
+    },
+    {
+      editable = false
+      field = salesforce.Pet__c.field.Sound__c
+      readable = false
+    },
+    {
+      editable = false
+      field = salesforce.Pet__c.field.test1__c
+      readable = false
+    },
+    {
       editable = true
       field = salesforce.Product2.field.Description
       readable = true
@@ -2404,6 +2429,9 @@ salesforce.Profile StandardAul {
     },
     {
       layout = salesforce.Layout.instance.Payment_Line_Invoice_Layout
+    },
+    {
+      layout = salesforce.Layout.instance.Pet_Layout
     },
     {
       layout = salesforce.Layout.instance.Price_Book_Layout

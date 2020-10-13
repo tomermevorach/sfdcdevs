@@ -102,6 +102,7 @@ type salesforce.DuplicateRecordItem {
       salesforce.Contact,
       salesforce.Individual,
       salesforce.Lead,
+      salesforce.Pet__c,
     ]
     createable = true
     updateable = true

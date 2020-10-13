@@ -33,4 +33,5 @@ salesforce.CaseSettings {
     defaultResponseTemplate = "unfiled$public/SupportCaseCreatedWebInquiries"
     enableWebToCase = true
   }
+  caseMergeInLightning = "false"
 }

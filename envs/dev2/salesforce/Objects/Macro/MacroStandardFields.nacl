@@ -283,6 +283,12 @@ type salesforce.Macro {
         isActive = true
       },
       {
+        fullName = "Pet__c"
+        default = false
+        label = "Pet"
+        isActive = true
+      },
+      {
         fullName = "Product2"
         default = false
         label = "Product"

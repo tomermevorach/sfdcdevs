@@ -1,0 +1,50 @@
+salesforce.CustomObjectTranslation Pet__c_en_US {
+  fullName = "Pet__c-en_US"
+  caseValues = [
+    {
+      plural = false
+      value = "Pet"
+    },
+    {
+      plural = true
+      value = "Pets"
+    },
+  ]
+  fields = [
+    {
+      label = ""
+      name = salesforce.Pet__c.field.Age__c
+    },
+    {
+      label = ""
+      name = salesforce.Pet__c.field.Formula1__c
+    },
+    {
+      label = ""
+      name = salesforce.Pet__c.field.Last_visit__c
+    },
+    {
+      label = ""
+      name = salesforce.Pet__c.field.Pet_Type__c
+      picklistValues = [
+        {
+          masterLabel = "dog,cat,fish"
+          translation = ""
+        },
+      ]
+    },
+    {
+      help = ""
+      label = ""
+      name = salesforce.Pet__c.field.Sound__c
+    },
+    {
+      label = ""
+      name = salesforce.Pet__c.field.test1__c
+    },
+  ]
+  startsWith = "Consonant"
+  _parent = [
+    salesforce.Pet__c,
+  ]
+}

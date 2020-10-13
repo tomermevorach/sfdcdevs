@@ -109,4 +109,8 @@ salesforce.Layout Solution_Layout {
   _parent = [
     salesforce.Solution,
   ]
+  headers = [
+    "PersonalTagging",
+    "PublicTagging",
+  ]
 }

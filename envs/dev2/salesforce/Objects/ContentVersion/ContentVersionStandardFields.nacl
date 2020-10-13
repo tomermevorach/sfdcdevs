@@ -409,6 +409,7 @@ type salesforce.ContentVersion {
       salesforce.OrderItem,
       "Organization",
       "OutgoingEmail",
+      salesforce.Pet__c,
       salesforce.Product2,
       "Report",
       salesforce.ResourceAbsence,

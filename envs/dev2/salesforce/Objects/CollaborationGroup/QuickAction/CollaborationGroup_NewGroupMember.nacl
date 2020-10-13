@@ -8,18 +8,22 @@ salesforce.QuickAction CollaborationGroup_NewGroupMember {
           {
             emptySpace = false
             field = "CollaborationGroupId"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "MemberId"
+            uiBehavior = "Required"
           },
           {
             emptySpace = false
             field = "CollaborationRole"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "AddMember"
   targetObject = salesforce.CollaborationGroupMember

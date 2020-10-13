@@ -1255,6 +1255,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Tab.Pet__c"
+        default = false
+        label = "Active Pet Tab"
+        isActive = true
+      },
+      {
         fullName = "Tab.Product2"
         default = false
         label = "Active Product Tab"

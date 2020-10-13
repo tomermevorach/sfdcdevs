@@ -12,26 +12,32 @@ salesforce.QuickAction FeedItem_NewTaskFromFeedItem {
           {
             emptySpace = false
             field = "Subject"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "ActivityDate"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhoId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "WhatId"
+            uiBehavior = "Edit"
           },
           {
             emptySpace = false
             field = "Description"
+            uiBehavior = "Edit"
           },
         ]
       },
     ]
+    layoutSectionStyle = "TwoColumnsLeftToRight"
   }
   standardLabel = "CreateNew"
   targetObject = salesforce.Task

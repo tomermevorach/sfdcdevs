@@ -103,6 +103,7 @@ type salesforce.ContactRequest {
       salesforce.Account,
       salesforce.Case,
       salesforce.Opportunity,
+      salesforce.Pet__c,
     ]
     createable = true
     updateable = true
