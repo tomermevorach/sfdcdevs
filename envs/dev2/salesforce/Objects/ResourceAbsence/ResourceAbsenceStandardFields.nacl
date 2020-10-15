@@ -21,7 +21,7 @@ type salesforce.ResourceAbsence {
   salesforce.AutoNumber AbsenceNumber {
     apiName = "ResourceAbsence.AbsenceNumber"
     label = "Absence Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

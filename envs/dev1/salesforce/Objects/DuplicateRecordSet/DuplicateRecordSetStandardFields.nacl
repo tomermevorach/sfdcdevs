@@ -21,7 +21,7 @@ type salesforce.DuplicateRecordSet {
   salesforce.AutoNumber Name {
     apiName = "DuplicateRecordSet.Name"
     label = "Duplicate Record Set Name"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

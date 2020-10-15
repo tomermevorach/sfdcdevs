@@ -33,7 +33,7 @@ type salesforce.Case {
   salesforce.AutoNumber CaseNumber {
     apiName = "Case.CaseNumber"
     label = "Case Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

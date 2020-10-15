@@ -280,7 +280,7 @@ type salesforce.Contract {
   salesforce.AutoNumber ContractNumber {
     apiName = "Contract.ContractNumber"
     label = "Contract Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

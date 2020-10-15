@@ -201,7 +201,7 @@ type salesforce.OrderItem {
   salesforce.AutoNumber OrderItemNumber {
     apiName = "OrderItem.OrderItemNumber"
     label = "Order Product Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

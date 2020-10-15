@@ -35,7 +35,7 @@ type salesforce.ContactRequest {
   salesforce.AutoNumber Name {
     apiName = "ContactRequest.Name"
     label = "Contact Request Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

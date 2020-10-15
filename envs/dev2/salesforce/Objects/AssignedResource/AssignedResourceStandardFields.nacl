@@ -21,7 +21,7 @@ type salesforce.AssignedResource {
   salesforce.AutoNumber AssignedResourceNumber {
     apiName = "AssignedResource.AssignedResourceNumber"
     label = "Assigned Resource Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

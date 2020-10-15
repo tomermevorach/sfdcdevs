@@ -35,7 +35,7 @@ type salesforce.OrgDeleteRequest {
   salesforce.AutoNumber Name {
     apiName = "OrgDeleteRequest.Name"
     label = "Name"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

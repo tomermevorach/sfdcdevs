@@ -21,7 +21,7 @@ type salesforce.ServiceTerritoryWorkType {
   salesforce.AutoNumber Name {
     apiName = "ServiceTerritoryWorkType.Name"
     label = "Service Territory Work Type Name"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

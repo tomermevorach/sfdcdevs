@@ -21,7 +21,7 @@ type salesforce.AssetRelationship {
   salesforce.AutoNumber AssetRelationshipNumber {
     apiName = "AssetRelationship.AssetRelationshipNumber"
     label = "Asset Relationship Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

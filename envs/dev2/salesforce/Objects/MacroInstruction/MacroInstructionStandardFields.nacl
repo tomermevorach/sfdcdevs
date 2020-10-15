@@ -21,7 +21,7 @@ type salesforce.MacroInstruction {
   salesforce.AutoNumber Name {
     apiName = "MacroInstruction.Name"
     label = "Macro Instruction Name"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

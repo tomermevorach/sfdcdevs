@@ -21,7 +21,7 @@ type salesforce.ConsumptionRate {
   salesforce.AutoNumber Name {
     apiName = "ConsumptionRate.Name"
     label = "Consumption Rate Name"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

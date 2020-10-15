@@ -21,7 +21,7 @@ type salesforce.SkillRequirement {
   salesforce.AutoNumber SkillNumber {
     apiName = "SkillRequirement.SkillNumber"
     label = "Skill Requirement Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

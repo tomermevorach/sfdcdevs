@@ -21,7 +21,7 @@ type salesforce.ResourcePreference {
   salesforce.AutoNumber ResourcePreferenceNumber {
     apiName = "ResourcePreference.ResourcePreferenceNumber"
     label = "Resource Preference Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

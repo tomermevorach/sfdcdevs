@@ -21,7 +21,7 @@ type salesforce.ServiceTerritoryMember {
   salesforce.AutoNumber MemberNumber {
     apiName = "ServiceTerritoryMember.MemberNumber"
     label = "Member Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

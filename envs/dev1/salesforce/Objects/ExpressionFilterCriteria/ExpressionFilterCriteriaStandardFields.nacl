@@ -21,7 +21,7 @@ type salesforce.ExpressionFilterCriteria {
   salesforce.AutoNumber Name {
     apiName = "ExpressionFilterCriteria.Name"
     label = "ExpressionFilterCriteria Name"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true

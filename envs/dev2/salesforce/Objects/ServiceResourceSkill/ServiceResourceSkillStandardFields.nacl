@@ -21,7 +21,7 @@ type salesforce.ServiceResourceSkill {
   salesforce.AutoNumber SkillNumber {
     apiName = "ServiceResourceSkill.SkillNumber"
     label = "Resource Skill Number"
-    _required = true
+    _required = false
     createable = false
     updateable = false
     queryable = true
